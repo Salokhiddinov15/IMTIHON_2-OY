@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  display: flex;
+}
+.hero h1 {
+  margin-left: 100px;
+  margin-top: 190px;
+  font-family: "Exo 2";
+  width: 610px;
+  height: 119px;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 125%;
+  color: #363738;
+}
+.hero .hero_text_one {
+  margin-left: 100px;
+  margin-top: 40px;
+  width: 525px;
+  height: 66px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.hero .hero_text_two {
+  margin-left: 100px;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #363738;
+}
+.hero .hero_line {
+  width: 104px;
+  border: 3px solid #ffce50;
+  margin-left: 100px;
+}
+
+.hero_fon {
+  background-image: url("../images/hero_fon.svg");
+  width: 600px;
+  height: 832px;
+  margin-left: 131px;
+  z-index: -1;
+}
+
+.hero_img {
+  margin-left: -80px;
+  margin-top: 109px;
+}
+
+.card {
+  width: 85%;
+  height: 341px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin: auto;
+  margin-top: -100px;
+  display: grid;
+  justify-content: space-around;
+  align-content: center;
+  grid-template-columns: repeat(3, 228px);
+  grid-template-rows: repeat(1, 245px);
+  z-index: 15;
+}
+.card .card_bloc .card_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+  margin: 24px 0px 16px 0px;
+}
+.card .card_bloc .card_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+
+.checkbox {
+  width: 85%;
+  height: 722px;
+  margin: auto;
+  margin-top: 100px;
+}
+.checkbox .checkbox_main_title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+  margin-bottom: 32px;
+}
+.checkbox .checkbox_main_text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+  margin-bottom: 34px;
+}
+.checkbox .checkbox_main {
+  display: flex;
+}
+.checkbox .checkbox_main .checkbox_main_one .checkbox_container {
+  background: #ffffff;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  margin: 16px 0px;
+  width: 687px;
+  height: 176px;
+  align-items: center;
+  justify-content: center;
+}
+.checkbox .checkbox_main .checkbox_main_one .checkbox_container .chackbox_label {
+  display: flex;
+}
+.checkbox .checkbox_main .checkbox_main_one .checkbox_container label > input {
+  margin-left: 40px;
+}
+.checkbox .checkbox_main .checkbox_main_one .checkbox_container .checkbox_card {
+  margin-left: 32px;
+}
+.checkbox .checkbox_main .checkbox_main_one .checkbox_container .checkbox_card .checkbox_title {
+  margin: 40px 0px 24px 0px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+}
+.checkbox .checkbox_main .checkbox_main_one .checkbox_container .checkbox_card .checkbox_text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+.checkbox .checkbox_main .checkbox_main_two {
+  margin-left: 140px;
+  margin-top: 50px;
+}
+.checkbox .checkbox_main .checkbox_main_two .checkbox_main_two_text {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+  margin-bottom: 8px;
+}
+.checkbox .checkbox_main .checkbox_main_two .checkbox_three_text {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  color: #363738;
+}
+.checkbox .checkbox_main .checkbox_main_two .checkbox_main_two_span {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+  margin-left: -45px;
+}
+.checkbox .checkbox_main .checkbox_main_two .checkbox_line {
+  width: 281px;
+  border: 1px solid #ffce50;
+  margin-top: 39px;
+}
+
+.car_image {
+  width: 87%;
+  height: 453px;
+  margin-top: 100px;
+}
+
+.tabs {
+  width: 88%;
+  height: 295px;
+  display: grid;
+  justify-content: space-around;
+  align-content: center;
+  grid-template-columns: repeat(2, 425px);
+  grid-template-rows: repeat(2, 80px);
+  grid-gap: 62px;
+  margin-top: 40px;
+}
+.tabs .tabs_item {
+  display: flex;
+}
+.tabs .tabs_item .tabs_item_list {
+  margin-left: 40px;
+}
+.tabs .tabs_item .tabs_item_list .tabs_title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.tabs .tabs_item .tabs_item_list .tabs_text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+
+.container_two {
+  margin-left: 100px;
+  margin-top: 20px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+
+.container_three {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.site_main {
+  width: 393px;
+  height: 455px;
+  margin-left: 100px;
+  margin-top: 57px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+
+.box_one {
+  display: flex;
+}
+
+.stansiya {
+  margin-left: 32px;
+  margin-top: 24px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+
+.lorem {
+  margin-left: 32px;
+  margin-top: 16px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6c;
+  margin-bottom: 32px;
+}
+
+.rubl {
+  margin-left: 32px;
+  margin-top: 32px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135%;
+  color: #363738;
+}
+
+.hr_one {
+  margin-left: 32px;
+  margin-top: 10px;
+  width: 86px;
+  height: 2px;
+  background-color: yellow;
+}
+
+.site_main_one {
+  width: 393px;
+  height: 455px;
+  margin-left: 30px;
+  margin-top: 57px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+
+.room {
+  width: 85%;
+  height: 917px;
+  background-color: #0b7572;
+  margin: auto;
+  display: flex;
+  margin-top: 212px;
+}
+.room .room_text {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #ffffff;
+  margin: 100px 20px 0px 55px;
+}
+.room .room_img {
+  width: 652px;
+  height: 747px;
+  margin: 85px 67px 0px 0px;
+}
+
+.bloc {
+  width: 100%;
+  height: 880px;
+  margin: auto;
+  margin-top: 120px;
+}
+.bloc .bloc_four {
+  padding-bottom: 48px;
+}
+.bloc .bloc_card {
+  width: 80%;
+  height: 500px;
+  display: grid;
+  grid-template-rows: repeat(3, 245px);
+  grid-row-gap: 24px;
+  margin: auto;
+}
+.bloc .bloc_card .bloc_card_one {
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+.bloc .bloc_card .bloc_card_one .bloc_card_two {
+  display: flex;
+  align-items: center;
+}
+.bloc .bloc_card .bloc_card_one .bloc_card_two .bloc_card_img {
+  margin-top: 32px;
+  margin-left: 96px;
+}
+
+.logosite_main {
+  width: 85%;
+  height: 576px;
+  margin: auto;
+}
+.logosite_main .logosite_main_one {
+  margin: 120px 0px 90px 0px;
+}
+.logosite_main .logosite {
+  width: 100%;
+  height: 437px;
+  display: grid;
+  grid-template-columns: repeat(4, 225px);
+  grid-template-rows: repeat(2, 183px);
+  grid-column-gap: 116px;
+  grid-row-gap: 71px;
+  margin: auto;
+  justify-content: center;
+}
+.logosite_main .logosite .logosite_one {
+  text-align: center;
+}
+.logosite_main .logosite .logosite_one .logosite_title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  text-align: center;
+  color: #363738;
+  margin: 32px 0px 14px 0px;
+}
+.logosite_main .logosite .logosite_one .logosite_text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #6b6b6c;
+}
+
+.team {
+  width: 86%;
+  height: 799px;
+  margin: auto;
+  margin-top: 130px;
+}
+.team .team_title {
+  margin-bottom: 72px;
+  margin-left: 0;
+}
+.team .team_card {
+  width: 95%;
+  height: 778px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 605px);
+  grid-template-rows: repeat(3, 210px);
+  grid-row-gap: 24px;
+}
+.team .team_card .team_card_one {
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.team .team_card .team_card_one .team_bloc_one {
+  width: 51px;
+  height: 210px;
+  background: #0b7572;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.team .team_card .team_card_one .team_bloc_two {
+  display: flex;
+}
+.team .team_card .team_card_one .team_bloc_two .team_bloc_img {
+  margin: 32px 40px 0px 32px;
+}
+.team .team_card .team_card_one .team_bloc_two .team_bloc_card {
+  width: 200px;
+  height: 210px;
+  align-items: center;
+}
+.team .team_card .team_card_one .team_bloc_two .team_bloc_card .team_bloc_title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+  margin: 47px 0px 12px 0px;
+}
+.team .team_card .team_card_one .team_bloc_two .team_bloc_card .team_bloc_card {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+.team .team_card .team_card_one .team_bloc_two .team_bloc_card .team_link {
+  margin: 16px 0px 35px 0px;
+  width: 86px;
+  height: 2px;
+  background-color: #FFCE50;
+}
+.team .team_card .team_card_one .team_bloc_two .team_bloc_card .team_img {
+  margin-right: 20px;
+}
+
+.video {
+  margin-top: 60px;
+}
+.video .video_main {
+  width: 85%;
+  height: 621px;
+  margin: auto;
+  margin-top: 40px;
+}/*# sourceMappingURL=main.css.map */
