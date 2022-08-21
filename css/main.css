@@ -12,7 +12,7 @@
 .hero h1 {
   margin-left: 100px;
   margin-top: 190px;
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   width: 610px;
   height: 119px;
   font-weight: 600;
@@ -93,7 +93,7 @@
   margin-top: 100px;
 }
 .checkbox .checkbox_main_title {
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -134,7 +134,7 @@
 }
 .checkbox .checkbox_main .checkbox_main_one .checkbox_container .checkbox_card .checkbox_title {
   margin: 40px 0px 24px 0px;
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -154,7 +154,7 @@
   margin-top: 50px;
 }
 .checkbox .checkbox_main .checkbox_main_two .checkbox_main_two_text {
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -163,7 +163,7 @@
   margin-bottom: 8px;
 }
 .checkbox .checkbox_main .checkbox_main_two .checkbox_three_text {
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 54px;
@@ -172,7 +172,7 @@
   color: #363738;
 }
 .checkbox .checkbox_main .checkbox_main_two .checkbox_main_two_span {
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -210,7 +210,7 @@
   margin-left: 40px;
 }
 .tabs .tabs_item .tabs_item_list .tabs_title {
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -229,7 +229,7 @@
 .container_two {
   margin-left: 100px;
   margin-top: 20px;
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -265,7 +265,7 @@
 .stansiya {
   margin-left: 32px;
   margin-top: 24px;
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -288,7 +288,7 @@
 .rubl {
   margin-left: 32px;
   margin-top: 32px;
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -323,7 +323,7 @@
   margin-top: 212px;
 }
 .room .room_text {
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -391,7 +391,7 @@
   text-align: center;
 }
 .logosite_main .logosite .logosite_one .logosite_title {
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -431,7 +431,7 @@
 }
 .team .team_card .team_card_one {
   display: flex;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
 }
@@ -454,7 +454,7 @@
   align-items: center;
 }
 .team .team_card .team_card_one .team_bloc_two .team_bloc_card .team_bloc_title {
-  font-family: "Exo 2";
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -468,13 +468,13 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
-  color: #6B6B6C;
+  color: #6b6b6c;
 }
 .team .team_card .team_card_one .team_bloc_two .team_bloc_card .team_link {
   margin: 16px 0px 35px 0px;
   width: 86px;
   height: 2px;
-  background-color: #FFCE50;
+  background-color: #ffce50;
 }
 .team .team_card .team_card_one .team_bloc_two .team_bloc_card .team_img {
   margin-right: 20px;
@@ -488,4 +488,71 @@
   height: 621px;
   margin: auto;
   margin-top: 40px;
+}
+
+.box {
+  margin-left: 100px;
+  margin-top: 99px;
+  display: flex;
+}
+
+.telefon {
+  margin-left: 36px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+
+.span_box {
+  margin-left: 36px;
+  margin-top: 8px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+
+.box-1 {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 49px;
+}
+
+table {
+  width: 80%;
+  height: 403px;
+  background: #F9F9FB;
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-left: 198px;
+}
+
+th {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #6B6B6C;
+  padding-right: 190px;
+  border: 1px solid #E9EAF2;
+}
+
+td {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  color: #363738;
+  border: 1px solid #E9EAF2;
+}
+
+.box_two {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

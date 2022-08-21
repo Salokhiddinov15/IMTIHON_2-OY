@@ -7,8 +7,10 @@
   box-sizing: border-box;
 }
 
-$main-font: font-family "Exo 2";
-
+$main-font:'Exo 2',
+sans-serif;
+$main-font-two:'PT Sans',
+sans-serif;
 
 .hero {
   display: flex;
@@ -20,8 +22,7 @@ $main-font: font-family "Exo 2";
   h1 {
     margin-left: 100px;
     margin-top: 190px;
-    // font-family: $main-font;
-    font-family: "Exo 2";
+    font-family: $main-font;
     width: 610px;
     height: 119px;
     font-weight: 600;
@@ -78,14 +79,11 @@ $main-font: font-family "Exo 2";
   border-radius: 20px;
   margin: auto;
   margin-top: -100px;
-  // background-color: gold;
   display: grid;
   justify-content: space-around;
   align-content: center;
-  // align-items: center;
   grid-template-columns: repeat(3, 228px);
   grid-template-rows: repeat(1, 245px);
-  // grid-gap: 105px;
   z-index: 15;
 
   .card_bloc {
@@ -109,24 +107,33 @@ $main-font: font-family "Exo 2";
   }
 }
 
-@media 
+// .hero_img {
+//   // display: none;
+// }
 
+// .hero_img_media {
+//   display: none;
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// @media only screen and (max-width: 768px) {
+//   .hero_fon {
+//     display: block;
+//     width: 177px;
+//     height: 743px;
+//     background-image: url(../images/fon_media.png);
+//     // position: relative;
+//     margin-right: 0px;
+//     .hero_img {
+//       display: none;
+//     }
+//     .hero_img_media {
+//       display: block;
+//       // position: absolute;
+//       width: 690px;
+//       height: 314px;
+//     }
+//   }
+// }
 
 .checkbox {
   width: 85%;
@@ -136,7 +143,7 @@ $main-font: font-family "Exo 2";
   margin-top: 100px;
 
   .checkbox_main_title {
-    font-family: "Exo 2";
+    font-family: $main-font;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -159,14 +166,12 @@ $main-font: font-family "Exo 2";
     display: flex;
 
     .checkbox_main_one {
-      // display: flex;
 
       .checkbox_container {
         background: #ffffff;
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
         border-radius: 10px;
         margin: 16px 0px;
-        // display: flex;
         width: 687px;
         height: 176px;
         align-items: center;
@@ -176,7 +181,7 @@ $main-font: font-family "Exo 2";
           display: flex;
         }
 
-        label > input {
+        label>input {
           margin-left: 40px;
         }
 
@@ -185,7 +190,7 @@ $main-font: font-family "Exo 2";
 
           .checkbox_title {
             margin: 40px 0px 24px 0px;
-            font-family: "Exo 2";
+            font-family: $main-font;
             font-style: normal;
             font-weight: 600;
             font-size: 20px;
@@ -206,14 +211,11 @@ $main-font: font-family "Exo 2";
     }
 
     .checkbox_main_two {
-      // width: 281px;
-      // height: 100px;
-      // background-color: red;
       margin-left: 140px;
       margin-top: 50px;
 
       .checkbox_main_two_text {
-        font-family: "Exo 2";
+        font-family: $main-font;
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
@@ -223,7 +225,7 @@ $main-font: font-family "Exo 2";
       }
 
       .checkbox_three_text {
-        font-family: "Exo 2";
+        font-family: $main-font;
         font-style: normal;
         font-weight: 600;
         font-size: 54px;
@@ -233,7 +235,7 @@ $main-font: font-family "Exo 2";
       }
 
       .checkbox_main_two_span {
-        font-family: "Exo 2";
+        font-family: $main-font;
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
@@ -270,14 +272,12 @@ $main-font: font-family "Exo 2";
 
   .tabs_item {
     display: flex;
-    // background-color: red;
-    // margin-bottom: 62px;
 
     .tabs_item_list {
       margin-left: 40px;
 
       .tabs_title {
-        font-family: "Exo 2";
+        font-family: $main-font;
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
@@ -300,7 +300,7 @@ $main-font: font-family "Exo 2";
 .container_two {
   margin-left: 100px;
   margin-top: 20px;
-  font-family: "Exo 2";
+  font-family: $main-font;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -336,7 +336,7 @@ $main-font: font-family "Exo 2";
 .stansiya {
   margin-left: 32px;
   margin-top: 24px;
-  font-family: "Exo 2";
+  font-family: $main-font;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -359,7 +359,7 @@ $main-font: font-family "Exo 2";
 .rubl {
   margin-left: 32px;
   margin-top: 32px;
-  font-family: "Exo 2";
+  font-family: $main-font;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -393,9 +393,8 @@ $main-font: font-family "Exo 2";
   display: flex;
   margin-top: 212px;
 
-  // position: relative;
   .room_text {
-    font-family: "Exo 2";
+    font-family: $main-font;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -414,7 +413,6 @@ $main-font: font-family "Exo 2";
 .bloc {
   width: 100%;
   height: 880px;
-  // background-color: greenyellow;
   margin: auto;
   margin-top: 120px;
 
@@ -431,8 +429,6 @@ $main-font: font-family "Exo 2";
     margin: auto;
 
     .bloc_card_one {
-      // background-color: #0B7572;
-      // border: 1px solid red;
       background: #ffffff;
       box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
       border-radius: 10px;
@@ -454,7 +450,6 @@ $main-font: font-family "Exo 2";
   width: 85%;
   height: 576px;
   margin: auto;
-  // background-color: dodgerblue;
 
   .logosite_main_one {
     margin: 120px 0px 90px 0px;
@@ -466,18 +461,16 @@ $main-font: font-family "Exo 2";
     display: grid;
     grid-template-columns: repeat(4, 225px);
     grid-template-rows: repeat(2, 183px);
-    // background-color: red;
     grid-column-gap: 116px;
     grid-row-gap: 71px;
     margin: auto;
     justify-content: center;
 
     .logosite_one {
-      // background-color: gold;
       text-align: center;
 
       .logosite_title {
-        font-family: "Exo 2";
+        font-family: $main-font;
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
@@ -504,10 +497,9 @@ $main-font: font-family "Exo 2";
   width: 86%;
   height: 799px;
   margin: auto;
-  // background-color: dodgerblue;
   margin-top: 130px;
 
-  .team_title{
+  .team_title {
     margin-bottom: 72px;
     margin-left: 0;
   }
@@ -523,10 +515,8 @@ $main-font: font-family "Exo 2";
     grid-row-gap: 24px;
 
     .team_card_one {
-      // background-color: yellowgreen;
       display: flex;
-      // border: 1px solid red;
-      background: #FFFFFF;
+      background: #ffffff;
       box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
       border-radius: 10px;
 
@@ -534,68 +524,133 @@ $main-font: font-family "Exo 2";
         width: 51px;
         height: 210px;
         background: #0b7572;
-        // transform: rotate(90deg);
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
       }
 
-      .team_bloc_two{
-
+      .team_bloc_two {
         display: flex;
 
-        .team_bloc_img{
+        .team_bloc_img {
           margin: 32px 40px 0px 32px;
         }
-        .team_bloc_card{
+
+        .team_bloc_card {
           width: 200px;
           height: 210px;
-          // background-color: pink;
           align-items: center;
 
-          .team_bloc_title{
-            font-family: 'Exo 2';
+          .team_bloc_title {
+            font-family: $main-font;
             font-style: normal;
             font-weight: 600;
             font-size: 20px;
             line-height: 24px;
             color: #363738;
             margin: 47px 0px 12px 0px;
-            
           }
 
-          .team_bloc_card{
-            font-family: 'PT Sans';
+          .team_bloc_card {
+            font-family: "PT Sans";
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
             line-height: 150%;
-            color: #6B6B6C;
+            color: #6b6b6c;
           }
 
-          .team_link{
+          .team_link {
             margin: 16px 0px 35px 0px;
             width: 86px;
             height: 2px;
-            background-color: #FFCE50;
+            background-color: #ffce50;
           }
 
-          .team_img{
+          .team_img {
             margin-right: 20px;
           }
-
         }
       }
     }
   }
 }
 
-.video{
+.video {
   margin-top: 60px;
 
-  .video_main{
+  .video_main {
     width: 85%;
     height: 621px;
     margin: auto;
     margin-top: 40px;
   }
+}
+
+
+.box {
+  margin-left: 100px;
+  margin-top: 99px;
+  display: flex;
+}
+
+.telefon {
+  margin-left: 36px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+
+.span_box {
+  margin-left: 36px;
+  margin-top: 8px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+
+.box-1 {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 49px;
+}
+
+table {
+  width: 80%;
+  height: 403px;
+  // margin-left: 20px;
+  background: #F9F9FB;
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-left: 198px;
+}
+
+th {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #6B6B6C;
+  padding-right: 190px;
+  border: 1px solid #E9EAF2;
+}
+
+td {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  color: #363738;
+  border: 1px solid #E9EAF2;
+}
+
+.box_two {
+  display: flex;
 }
